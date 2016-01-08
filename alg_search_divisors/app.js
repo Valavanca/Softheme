@@ -9,7 +9,7 @@ stdin.addListener("data", function(d) {
 function numDivisors(num) {
     var primeArray = primeNum(num);
     var divArray = [];
-    for(var i = 0; i<num; i++) {
+    for(var i = 0; i<num/2; i++) {
         if(primeArray[i]=== 1) {                
             //console.log('divArray:', i);
            if(num%i === 0)
