@@ -9,10 +9,10 @@ var temp = 0;
 
 for (var i = 0; i < str_ln; i++) {
   
-  if(text[i] === '1') {
+  if(text[i] == '1') {
     focus = i;
     
-    while(text[focus] === '1') {
+    while(text[focus] == '1') {
       focus++;
     }
     temp = focus - i;
